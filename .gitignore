@@ -1,0 +1,7 @@
+target/
+*.py
+db/account.db
+db/account.db-shm
+db/account.db-wal
+*.jpeg
+*.txt

@@ -1,0 +1,9 @@
+[package]
+name = "anyhow_response_error"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "2.0.7"
+anyhow = "1.0.94"
+actix-web = "4.9.0"
