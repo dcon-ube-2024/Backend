@@ -25,7 +25,7 @@ pub async fn init() {
         .await
         .expect("Failed connect to database.");
 
-    sqlx::migrate!("db/migrations")
+    sqlx::migrate!("./db/migrations")
         .run(&pool)
         .await
         .inspect_err(|e| eprintln!("{e}"))
